@@ -1,0 +1,8 @@
+CREATE TABLE animals (
+    id SERIAL PRIMARY KEY,
+    description varchar(255),
+    quantity int
+);
+
+INSERT INTO animals (description, quantity_)
+VALUES ('Macah', 2);
